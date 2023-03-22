@@ -1,10 +1,50 @@
-import * as React from "react"
+import React from "react"
+import Layout from '../components/Layout'
+import { graphql, Link } from 'gatsby'
 
-export default function Home() {
+// import Post from '../components/Post'
+
+
+
+
+export default function Home({ data }) {
+
+  console.log(data)
+
+  const projects = data.allMarkdownRemark.nodes
+  
+
   return (
-    <>
-      <h1>Zdravo svete!</h1>
-      <h2>Zdravo Natasa!</h2>
-    </>
+    <Layout>
+
+      <h1>Natasine pesme</h1>
+      <h2>I svasta</h2>
+
+      <div>
+        {projects.map(project => (
+          <Link to={"/pesme/" + project.frontmatter.slug} key={project.id}>
+            <h1>{ project.frontmatter.title }</h1>
+          </Link>
+        ))}
+
+      </div>
+    </Layout>
   )
 }
+
+export const query = graphql`
+query ProjectsPage {
+  allMarkdownRemark(sort: {frontmatter: {datum: DESC}}) {
+    nodes {
+      frontmatter {
+        author
+        datum
+        slug
+        title
+      }
+      id
+      excerpt
+    }
+  }
+}
+`
