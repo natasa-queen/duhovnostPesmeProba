@@ -13,6 +13,32 @@
     --boja4: #f8dbb8;
     --boja5: #e6f8f6;
     --boja6: #f8f3e8;
+    --boja7: #93876e;
+
+    --crna: #0a0a0a;
+    --crnaBg: #000001FF;
+    --plava: #0591cc;
+    --plava2: #0092CCFF;
+    --bela: #ffffff;
+    --siva: #515151;
+    --siva2: #515151FF;
+    --teget: #1a284e;
+    --teget2: #002336FF;
+
+    --crna3: #141414FF;
+    --bela3: #FDFDFEFF;
+    --bela4: #F9F9F9FF;
+    --teget3: #002746FF;
+    --teget4: #33526BFF;
+    --plava4: #009CE8FF;
+    --plava5: #48649AFF;
+    --braon: #2F2E2EFF;
+    --braon2: #1B1A1AFF;
+    --siva3: #9F9F9EFF;
+    --siva4: #ECECECFF;
+    --crvena: #9A0001FF;
+
+    
 }
 
 body {

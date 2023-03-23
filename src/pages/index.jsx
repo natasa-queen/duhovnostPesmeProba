@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from '../components/Layout'
+import Header from '../components/Header'
+import '../assets/css/pocetna.scss'
 import { graphql, Link } from 'gatsby'
 
 // import Post from '../components/Post'
-
-
 
 
 export default function Home({ data }) {
@@ -16,6 +16,8 @@ export default function Home({ data }) {
 
   return (
     <Layout>
+
+      <Header />
 
       <h1>Natasine pesme</h1>
       <h2>I svasta</h2>

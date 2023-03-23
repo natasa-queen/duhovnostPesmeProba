@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import '../assets/css/pesma-template.scss'
 
 import Layout from '../components/Layout'
 
@@ -11,9 +12,9 @@ export default function PesmaTemplate({ data }) {
 
     return (
         <Layout>
-            <div>
-                <h2>{title}</h2>
-                <h3>{datum}</h3>
+            <div className='telo-pesme'>
+                <h2 className='naslov-pesme'>{title}</h2>
+                <h3 className='datum-pesme'>{datum}</h3>
 
                 <div dangerouslySetInnerHTML={{__html: html }} />
                 

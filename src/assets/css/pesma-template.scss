@@ -1,0 +1,14 @@
+
+.telo-pesme {
+    max-width: 400px;
+    text-align: center;
+    margin: 2rem auto;
+    background-color: var(--teget2);
+
+    border: 1px solid red;
+
+    .naslov-pesme {
+        color: var(--plava2);
+        font-family: var(--font1);
+    }
+}

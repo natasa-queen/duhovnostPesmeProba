@@ -17,7 +17,7 @@ function Navbar() {
             <ul className={show ? `menu-items active` : `menu-items`}>
                 <li><Link to='/' onClick={() => setShow(false)}>Početna</Link></li>
                 <li><Link to='/' onClick={() => setShow(false)}>O meni</Link></li>
-                <li><Link to='/recepti' onClick={() => setShow(false)}>Recepti</Link></li>
+                {/* <li><Link to='/recepti' onClick={() => setShow(false)}>Recepti</Link></li> */}
                 <li><Link to='/' onClick={() => setShow(false)}>Kontakt</Link></li>
             </ul>
 
