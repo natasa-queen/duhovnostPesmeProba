@@ -18,6 +18,11 @@ nav {
 
     .logo {
         color: var(--boja2);
+
+        a {
+            text-decoration: none;
+            color: var(--bela3);
+        }
     }
 
     .menu-items {

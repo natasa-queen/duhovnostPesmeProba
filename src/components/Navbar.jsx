@@ -11,7 +11,7 @@ function Navbar() {
 
         <nav>
             <div className='logo'>
-                <h2>N.T.</h2>
+                <Link to='/'><h2>N.T.</h2></Link>
             </div>
 
             <ul className={show ? `menu-items active` : `menu-items`}>
