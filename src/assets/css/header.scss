@@ -2,9 +2,32 @@
 .header {
     height: 100vh;
     background-color: black;
+    color: var(--bela3);
    
     .header-slika {
         filter: opacity(40%);
         
     }
+
+    .velika-slika {
+        display: block;
+    }
+
+    .mala-slika {
+        display: none;
+    }
+
+
+
+
+    @media screen and (max-width: 500px) {
+        .velika-slika {
+            display: none;
+        }
+
+        .mala-slika {
+            display: block;
+        }
+    }
+
 }
