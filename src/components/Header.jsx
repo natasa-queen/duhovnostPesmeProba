@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { graphql  } from 'gatsby'
+import React from 'react'
+// import { graphql  } from 'gatsby'
 // import Img from 'gatsby-image'
 
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
@@ -12,7 +12,7 @@ export default function Header({ data }) {
 
     // const image = getImage(data.file.childImageSharp)
 
-    const [sirina, setSirina] = useState(window.innerWidth)
+    // const [sirina, setSirina] = useState(window.innerWidth)
 
     
 
