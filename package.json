@@ -13,18 +13,25 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "firebase": "^9.18.0",
     "gatsby": "^5.7.0",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
     "gatsby-plugin-sass": "^6.8.0",
     "gatsby-plugin-sharp": "^5.8.0",
+    "gatsby-plugin-typography": "^5.8.0",
     "gatsby-plugin-webfonts": "^2.3.2",
     "gatsby-source-filesystem": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
     "gatsby-transformer-sharp": "^5.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.59.3"
+    "react-firebase-hooks": "^5.1.1",
+    "react-typography": "^0.16.23",
+    "sass": "^1.59.3",
+    "typography": "^0.16.21"
   },
   "repository": {
     "type": "git",

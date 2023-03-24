@@ -1,3 +1,4 @@
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -7,6 +8,9 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+
+
 module.exports = {
 
   siteMetadata:{
@@ -28,7 +32,7 @@ module.exports = {
         // The unique name for each instance
         name: `pesme`,
         // Path to the directory
-        path: `${__dirname}/src/assets/`,
+        path: `${__dirname}/src/assets/`
       },
     },
     {
@@ -37,9 +41,20 @@ module.exports = {
         // The unique name for each instance
         name: `images`,
         // Path to the directory
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/src/assets/images`
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `poruke`,
+        // Path to the directory
+        path: `${__dirname}/src/assets/poruke`
+      },
+    },
+    
+    `gatsby-plugin-mdx`,
 
 
 
@@ -60,6 +75,7 @@ module.exports = {
         },
       },
     },
+
 
 
   ],
