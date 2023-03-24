@@ -179,33 +179,33 @@
 
 
 
-import React, { useState, useEffect } from 'react';
-import '../assets/css/poruka.scss';
+// import React, { useState, useEffect } from 'react';
+// import '../assets/css/poruka.scss';
 
-const messages = [
-  'Poruka 1',
-  'Poruka 2',
-  'Poruka 3',
-  'Poruka 4',
-  'Poruka 5',
-  'Poruka 6',
-  'Poruka 7',
-  'Poruka 8',
-  'Poruka 9',
-  'Poruka 10',
-  'Poruka 11',
-  'Poruka 12',
-  'Poruka 13',
-  'Poruka 14',
-  'Poruka 15',
-  'Poruka 16',
-  'Poruka 17',
-  'Poruka 18',
-  'Poruka 19',
-  'Poruka 20',
-  'Poruka 21',
-  'Poruka 22'
-];
+// const messages = [
+//   'Poruka 1',
+//   'Poruka 2',
+//   'Poruka 3',
+//   'Poruka 4',
+//   'Poruka 5',
+//   'Poruka 6',
+//   'Poruka 7',
+//   'Poruka 8',
+//   'Poruka 9',
+//   'Poruka 10',
+//   'Poruka 11',
+//   'Poruka 12',
+//   'Poruka 13',
+//   'Poruka 14',
+//   'Poruka 15',
+//   'Poruka 16',
+//   'Poruka 17',
+//   'Poruka 18',
+//   'Poruka 19',
+//   'Poruka 20',
+//   'Poruka 21',
+//   'Poruka 22'
+// ];
 
 // const selectRandomMessage = () => {
 //   const randomIndex = Math.floor(Math.random() * messages.length);
