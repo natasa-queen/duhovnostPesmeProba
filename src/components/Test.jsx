@@ -50,7 +50,7 @@ const MessageDisplay = () => {
       const randomIndex = Math.floor(Math.random() * messages.length);
       setCurrentMessage(messages[randomIndex]);
       window.localStorage.setItem("currentMessage", messages[randomIndex]);
-    }, 1000); // jedan dan u milisekundama
+    }, 10000); // jedan dan u milisekundama
     return () => clearInterval(messageInterval);
   }, [messages]);
 
