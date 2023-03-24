@@ -15,7 +15,7 @@ export default function Header() {
             <HeaderSlika />
 
             <div>
-                <Poruka hour={8} minute={6} />
+                <Poruka hour={8} minute={20} />
             </div>
 
             
