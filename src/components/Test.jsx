@@ -52,7 +52,7 @@ const MessageDisplay = () => {
         "currentMessage",
         JSON.stringify(messages[randomIndex])
       );
-    }, 10000); // jedan dan u milisekundama
+    },  180000); // jedan dan u milisekundama
     return () => clearInterval(messageInterval);
   }, [messages]);
 
