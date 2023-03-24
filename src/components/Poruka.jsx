@@ -27,48 +27,83 @@ const messages = [
 ];
 
 
-const selectRandomMessage = () => {
-  const randomIndex = Math.floor(Math.random() * messages.length);
-  return messages[randomIndex];
-};
 
-const Poruka = ({ hour, minute }) => {
-  const [message, setMessage] = useState('');
+const MessageDisplay = () => {
+  const [currentMessage, setCurrentMessage] = useState("");
+
+
 
   useEffect(() => {
-    const currentDate = new Date();
-    const targetDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate(), hour, minute);
-
-    if (currentDate.getTime() > targetDate.getTime()) {
-      targetDate.setDate(targetDate.getDate() + 1);
-    }
-
-    const timeUntilTargetDate = targetDate.getTime() - currentDate.getTime();
-
-    const storedMessage = localStorage.getItem('scheduledMessage');
+    const storedMessage = window.localStorage.getItem("currentMessage");
     if (storedMessage) {
-      setMessage(storedMessage);
+      setCurrentMessage(storedMessage);
     } else {
-      const randomMessage = selectRandomMessage();
-      setMessage(randomMessage);
-      localStorage.setItem('scheduledMessage', randomMessage);
+      const randomIndex = Math.floor(Math.random() * messages.length);
+      setCurrentMessage(messages[randomIndex]);
+      window.localStorage.setItem("currentMessage", messages[randomIndex]);
     }
 
-    const interval = setInterval(() => {
-      const randomMessage = selectRandomMessage();
-      setMessage(randomMessage);
-      localStorage.setItem('scheduledMessage', randomMessage);
-    }, timeUntilTargetDate);
+    const messageInterval = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * messages.length);
+      setCurrentMessage(messages[randomIndex]);
+      window.localStorage.setItem("currentMessage", messages[randomIndex]);
+    }, 10000); // jedan dan u milisekundama
+    return () => clearInterval(messageInterval);
+  }, [messages]);
 
-    return () => clearInterval(interval);
-  }, [hour, minute]);
-
-  return (
-    <div className="poruka">
-      <h1>Scheduled message:</h1>
-      <p>{message}</p>
-    </div>
-  );
+  return <div className="poruka">{currentMessage}</div>;
 };
 
-export default Poruka
+export default MessageDisplay;
+
+
+
+
+// const selectRandomMessage = () => {
+//   const randomIndex = Math.floor(Math.random() * messages.length);
+//   return messages[randomIndex];
+// };
+
+// const Poruka = ({ hour, minute }) => {
+//   const [message, setMessage] = useState('');
+
+//   useEffect(() => {
+//     const currentDate = new Date();
+//     const targetDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate(), hour, minute);
+
+//     if (currentDate.getTime() > targetDate.getTime()) {
+//       targetDate.setDate(targetDate.getDate() + 1);
+//     }
+
+//     const timeUntilTargetDate = targetDate.getTime() - currentDate.getTime();
+
+//     const storedMessage = localStorage.getItem('scheduledMessage');
+//     if (storedMessage) {
+//       setMessage(storedMessage);
+//     } else {
+//       const randomMessage = selectRandomMessage();
+//       setMessage(randomMessage);
+//       localStorage.setItem('scheduledMessage', randomMessage);
+//     }
+
+//     const interval = setInterval(() => {
+//       const randomMessage = selectRandomMessage();
+//       setMessage(randomMessage);
+//       localStorage.setItem('scheduledMessage', randomMessage);
+//     }, timeUntilTargetDate);
+
+//     return () => clearInterval(interval);
+//   }, [hour, minute]);
+
+//   return (
+//     <div className="poruka">
+//       <h1>Scheduled message:</h1>
+//       <p>{message}</p>
+//     </div>
+//   );
+// };
+
+// export default Poruka
+
+
+

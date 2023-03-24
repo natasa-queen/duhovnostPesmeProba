@@ -44,17 +44,27 @@ module.exports = {
         path: `${__dirname}/src/assets/images`
       },
     },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         // The unique name for each instance
         name: `poruke`,
         // Path to the directory
-        path: `${__dirname}/src/assets/poruke`
+        path: `${__dirname}/src/assets/`
       },
     },
-    
     `gatsby-plugin-mdx`,
+
+
+
+    `gatsby-transformer-json`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `/src/assets/poruke`,
+    //   },
+    // },
 
 
 
