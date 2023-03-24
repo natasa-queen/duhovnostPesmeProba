@@ -33,13 +33,13 @@ const MessageDisplay = () => {
   const messages = data.allPorukeJson.edges[0].node.poruke;
 
   useEffect(() => {
-    const storedMessage = window.localStorage.getItem("currentMessage");
+    const storedMessage = window.sessionStorage.getItem("currentMessage");
     if (storedMessage) {
       setCurrentMessage(JSON.parse(storedMessage));
     } else {
       const randomIndex = Math.floor(Math.random() * messages.length);
       setCurrentMessage(messages[randomIndex]);
-      window.localStorage.setItem(
+      window.sessionStorage.setItem(
         "currentMessage",
         JSON.stringify(messages[randomIndex])
       );
@@ -48,7 +48,7 @@ const MessageDisplay = () => {
     const messageInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * messages.length);
       setCurrentMessage(messages[randomIndex]);
-      window.localStorage.setItem(
+      window.sessionStorage.setItem(
         "currentMessage",
         JSON.stringify(messages[randomIndex])
       );
