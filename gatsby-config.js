@@ -81,11 +81,16 @@ module.exports = {
               family: "Open Sans Condensed",
               variants: ["300", "400", "500", "700"],
             },
+            {
+              family: "Fasthand",
+              variants: ["300", "400", "500", "700"],
+            },
           ],
         },
       },
     },
 
+    
 
 
   ],
