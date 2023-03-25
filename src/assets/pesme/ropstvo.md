@@ -1,6 +1,6 @@
 ---
 title: "Ropstvo grijeha i sloboda"
-datum: 22.3.2023.
+datum: 25.3.2023.
 author: "Natasa"
 slug: "ropstvo-grijeha-i-sloboda"
 ---

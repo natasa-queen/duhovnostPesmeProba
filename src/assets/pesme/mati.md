@@ -1,5 +1,5 @@
 ---
-title: "Mila mati"
+title: "Mila Mati"
 datum: "25.3.2023."
 author: "Natasa"
 slug: "mati"
