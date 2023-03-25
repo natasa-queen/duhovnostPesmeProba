@@ -23,7 +23,7 @@ export default function Home({ data }) {
 
       <Header />
 
-      <h1 className="naslov">Pjesme</h1>
+      <h1 className="naslov">Duhovnost u stihovima</h1>
       
 
       {/* <SpisakPesama /> */}
