@@ -82,7 +82,7 @@ module.exports = {
               variants: ["300", "400", "500", "700"],
             },
             {
-              family: "Fasthand",
+              family: "Parisienne", 
               variants: ["300", "400", "500", "700"],
             },
           ],
