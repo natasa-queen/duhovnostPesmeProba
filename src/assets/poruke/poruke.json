@@ -1,78 +1,237 @@
 {
   "poruke": [
     {
-      "pisac": "Albert Einstein",
-      "tekst": "Život je kao bicikl, morate se kretati kako biste zadržali ravnotežu."
+    "tekst": "Bog je duh, i koji ga štuju, u duhu i istini treba da ga štuju.",
+    "pisac": "Ivan, Isus Krist"
     },
     {
-      "pisac": "Steve Jobs",
-      "tekst": "Vaše vrijeme je ograničeno, zato ga nemojte gubiti živeći tuđi život."
+    "tekst": "Ne bilo kako, nego kako je pravo.",
+    "pisac": "Filipljanima 1:10, Pavao"
     },
     {
-      "pisac": "Oscar Wilde",
-      "tekst": "Budi sam sebe; svi ostali su već zauzeti."
+    "tekst": "Budite mudri kao zmije, a bezazleni kao golubovi.",
+    "pisac": "Matej 10:16, Isus Krist"
     },
     {
-      "tekst": "Budite promjena koju želite vidjeti u svijetu.",
-      "pisac": "Mahatma Gandhi"
+    "tekst": "Nemojte se ponašati kao što se ponašaju ljudi ovoga svijeta, nego se promijenite preobražavanjem svoga uma, da biste mogli razaznati što je Božja volja, što je dobro, ugodno i savršeno.",
+    "pisac": "Rimljanima 12:2, Pavao"
     },
     {
-      "tekst": "Samo se jedna stvar može suprotstaviti zlu, a to je dobro.",
-      "pisac": "Sveti Augustin"
+    "tekst": "Ljubav je velikodušna, ljubav je milosrdna. Ljubav ne zavidi, ne hvali se, ne oholi se.",
+    "pisac": "1. Korinćanima 13:4, Pavao"
     },
     {
-      "tekst": "Svatko nosi u sebi nešto predivno. Treba samo znati kako to pronaći.",
-      "pisac": "Michelangelo"
+    "tekst": "Ne brini se za sutrašnji dan, jer će se sutrašnji dan sam brinuti za sebe. Dosta je svakom danu svoje zlo.",
+    "pisac": "Matej 6:34, Isus Krist"
     },
     {
-      "tekst": "Onaj koji je svjestan svoje nesvjesnosti, već je u velikoj mjeri budan.",
-      "pisac": "Carl Jung"
+    "tekst": "Tko sebe uzvisuje, bit će ponižen; a tko sebe ponizuje, bit će uzvišen.",
+    "pisac": "Matej 23:12, Isus Krist"
     },
     {
-      "tekst": "Budite spremni prihvatiti promjenu koju želite vidjeti u svijetu.",
-      "pisac": "Lao Tzu"
+    "tekst": "Dok se molite, ne blebećite kao pogani. Oni misle da će biti uslišani zbog mnogih riječi.",
+    "pisac": "Matej 6:7, Isus Krist"
     },
     {
-      "tekst": "Najveća slava nije nikad pasti, već se podići svaki put kad padnemo.",
-      "pisac": "Confucius"
+    "tekst": "Gdje je tvoj blago, tamo će biti i tvoje srce.",
+    "pisac": "Matej 6:21, Isus Krist"
     },
     {
-      "tekst": "Ako želite žetvu u jednoj godini, posadite žitarice. Ako želite žetvu u deset godina, posadite drveće. Ako želite žetvu u stoljeću, izgradite ljude.",
-      "pisac": "Kuan Chung"
+    "tekst": "Sve što želite da ljudi vama čine, činite i vi njima.",
+    "pisac": "Matej 7:12, Isus Krist"
     },
     {
-      "tekst": "Put u pakao popločan je dobrim namjerama.",
-      "pisac": "Saint Bernard of Clairvaux"
+    "tekst": "Tko hoće biti prvi među vama, neka vam bude svima sluga.",
+    "pisac": "Matej 20:27, Isus Krist"
     },
     {
-      "tekst": "Najveća je sreća znati istinu.",
-      "pisac": "Blaise Pascal"
+    "tekst": "Nemojte suditi drugima, pa nećete biti suđeni.",
+    "pisac": "Matej 7:1, Isus Krist"
     },
     {
-      "tekst": "Kada se jedna vrata zatvore, druga se otvore; ali često gledamo tako dugo i sa toliko tuge na zatvorena vrata da ne vidimo ona koja su nam se otvorila.",
-      "pisac": "Alexander Graham Bell"
+    "tekst": "Ja sam put, istina i život. Nitko ne dolazi Ocu osim po meni.",
+    "pisac": "Ivan 14:6, Isus Krist"
     },
     {
-      "tekst": "Život je kao bicikl. Morate se kretati naprijed da biste održali ravnotežu.",
-      "pisac": "Albert Einstein"
+      "tekst": "Molite se i tražite, pa ćete naći; kucajte i otvorit će vam se.",
+      "pisac": "Matej 7:7, Isus Krist"
     },
     {
-      "tekst": "Budite spremni primiti ono što želite postići.",
-      "pisac": "Socrates"
+      "tekst": "Ako imate vjeru kao zrno gorušičino, reći ćete ovom brdu: 'Premjesti se odavde tamo', i ono će se premjestiti. I ništa vam neće biti nemoguće.",
+      "pisac": "Matej 17:20, Isus Krist"
     },
     {
-      "tekst": "Svijet pati od nedostatka ljubavi, jer ljudi više vole stvari nego ljude.",
-      "pisac": "Mother Teresa"
+      "tekst": "Tražite najprije Kraljevstvo Božje i njegovu pravednost, a sve ostalo će vam se dodati.",
+      "pisac": "Matej 6:33, Isus Krist"
     },
     {
-      "tekst": "Budite svjetlo koje vodi druge u mraku.",
-      "pisac": "Gandhi"
+      "tekst": "Budite sveti, jer sam ja svet.",
+      "pisac": "Levitska 11:44, Bog"
     },
     {
-      "tekst": "Ne tražite greške, tražite rješenja.",
-      "pisac": "Henry Ford"
-    }
-
+      "tekst": "Bog je ljubav, i tko ostaje u ljubavi, ostaje u Bogu i Bog ostaje u njemu.",
+      "pisac": "1. Ivanova 4:16, Ivan"
+    },
+    {
+      "tekst": "Učinite drugima ono što želite da drugi učine vama. To je sav Zakon i Proroci.",
+      "pisac": "Matej 7:12, Isus Krist"
+    },
+    {
+      "tekst": "Bog je svjetlo, i u njemu nema tame.",
+      "pisac": "1. Ivanova 1:5, Ivan"
+    },
+    {
+      "tekst": "Svaki će sezik isključiti zbog svojih riječi.",
+      "pisac": "Matej 12:37, Isus Krist"
+    },
+    {
+      "tekst": "Budite čuvari svoga srca, jer iz njega izvire život.",
+      "pisac": "Mudre izreke 4:23, Solomun"
+    },
+    {
+      "tekst": "Neka vas ljubav bude bez licemjerstva. Mrzite zlo, držite se dobra.",
+      "pisac": "Rimljanima 12:9, Pavao"
+    },
+    {
+      "tekst": "Tko svoj život bude htio spasiti, izgubit će ga. A tko izgubi svoj život poradi mene, naći će ga.",
+      "pisac": "Matej 16:25, Isus Krist"
+    },
+    {
+      "tekst": "Tko vas prima, mene prima. A tko mene prima, prima onoga koji me je poslao.",
+      "pisac": "Matej 10:40, Isus Krist"
+    },
+    {
+      "tekst": "Sretni ste kad vas ljudi omalovažuju i progone zbog mene. Radujte se i kličite, jer je velika nagrada u nebesima.",
+      "pisac": "Matej 5:11-12, Isus Krist"
+    },
+    {
+    "tekst": "Ljubav je strpljiva, ljubav je dobrostiva, ljubav ne zavidi, ne hvasta se, ne uzvisuje se.",
+    "pisac": "1. Korinćanima 13:4, Pavao"
+    },
+    {
+    "tekst": "Neka vaš govor bude uvijek milostiv i začinjen solju, da znate kako treba odgovoriti svakome.",
+    "pisac": "Kološanima 4:6, Pavao"
+    },
+    {
+    "tekst": "Sve mogu u onome koji me jača.",
+    "pisac": "Filipljanima 4:13, Pavao"
+    },
+    {
+    "tekst": "Ljubite svoje neprijatelje, blagoslivljajte one koji vas proklinju, činite dobro onima koji vas mrze.",
+    "pisac": "Luka 6:27-28, Isus Krist"
+    },
+    {
+    "tekst": "I ovo će proći.",
+    "pisac": "Mudre izreke, nepoznat autor"
+    },
+    {
+    "tekst": "Gdje je tvoj blago, tamo će biti i tvoje srce.",
+    "pisac": "Matej 6:21, Isus Krist"
+    },
+    {
+    "tekst": "Kad se slijepac slijepcem vodi, obojica padnu u jamu.",
+    "pisac": "Matej 15:14, Isus Krist"
+    },
+    {
+    "tekst": "Jer ja znam na koju sam svoju nadu položio, i uvjeren sam da je on kadar sačuvati što sam mu povjerio do onoga dana.",
+    "pisac": "2. Timoteju 1:12, Pavao"
+    },
+    {
+    "tekst": "Neka bude volja tvoja, kako na nebu tako i na zemlji.",
+    "pisac": "Matej 6:10, Isus Krist"
+    },
+    {
+    "tekst": "Blago onima koji su milosrdni, jer će zadobiti milosrđe.",
+    "pisac": "Matej 5:7, Isus Krist"
+    },
+    {
+    "tekst": "Svaki je dar koji je dobar i svaki savršen dar odozgor je, silazi od Oca svjetlina u kojemu nema promjene niti sjene od mijene.",
+    "pisac": "Jakov 1:17, Jakov"
+    },
+    {
+    "tekst": "Ne osvećujte se sami, ljubljeni, nego dajte mjesta gnjevu, jer je pisano: 'Meni osveta, ja ću uzvratiti', govori Gospodin.",
+    "pisac": "Rimljanima 12:19, Pavao"
+    },
+    {
+      "tekst": "A sada ostaju vjera, nada, ljubav - ova trojica. Ali najveća je među njima ljubav.",
+      "pisac": "1. Korinćanima 13:13, Pavao"
+      },
+      {
+      "tekst": "Tražite, i dat će vam se; tražite, i naći ćete; kucajte, i otvorit će vam se.",
+      "pisac": "Matej 7:7, Isus Krist"
+      },
+      {
+      "tekst": "Ako želiš biti savršen, idi, prodaj sve što imaš i podijeli siromasima, i imat ćeš blago na nebu. Onda dođi i idi za mnom.",
+      "pisac": "Matej 19:21, Isus Krist"
+      },
+      {
+      "tekst": "Ne mislite da sam došao donijeti mir na zemlju; nisam došao donijeti mir, nego mač.",
+      "pisac": "Matej 10:34, Isus Krist"
+      },
+      {
+      "tekst": "I ne tesi me, ničim me ne tjesi. Jer vidim da si me udario, iako ne znam za što si me udario.",
+      "pisac": "Job 16:2-3, Job"
+      },
+      {
+      "tekst": "Jahve je moj pastir, ni u čem ja ne oskudijevam.",
+      "pisac": "Psalam 23:1, David"
+      },
+      {
+      "tekst": "Dakle, sve što želite da ljudi vama čine, tako činite i vi njima; to je Zakon i Proroci.",
+      "pisac": "Matej 7:12, Isus Krist"
+      },
+      {
+      "tekst": "I ovo znam, da će mi biti za spasenje, po vašoj molitvi i pomoći Duha Isusa Krista.",
+      "pisac": "Filipljanima 1:19, Pavao"
+      },
+      {
+      "tekst": "Tko želi biti prvi među vama, neka vam bude sluga.",
+      "pisac": "Matej 20:27, Isus Krist"
+      },
+      {
+      "tekst": "Jer gdje su dvojica ili trojica sabrana u moje ime, tu sam i ja među njima.",
+      "pisac": "Matej 18:20, Isus Krist"
+      },
+      {
+      "tekst": "Neka nitko ne potcjenjuje tvoju mladost, nego budi uzor vjernicima u riječi, u ponašanju, u ljubavi, u vjeri, u čistoći.",
+      "pisac": "1. Timoteju 4:12, Pavao"
+      },
+      {
+      "tekst": "Blago čistima srcem: oni će Boga gledati.",
+      "pisac": "Matej 5:8, Isus Krist"
+      },
+      {
+        "tekst": "A za sve stvari zahvaljujte: ovo je Božja volja za vas u Kristu Isusu.",
+        "pisac": "1. Solunjanima 5:18, Pavao"
+      },
+      {
+        "tekst": "Jer naša je borba ne protiv krvi i tijela, nego protiv Vrhovnika, protiv Vlasti, protiv upravitelja ovoga mračnog svijeta, protiv duhova zlobe u zraku.",
+        "pisac": "Efežanima 6:12, Pavao"
+      },
+      {
+        "tekst": "On je odbacio s visine moju dušu, bacio me u duboku jamu, u tmine i u sjenu smrti.",
+        "pisac": "Žalosna pjesma 3:53, Jeremija"
+      },
+      {
+        "tekst": "Jer gdje ti je blago, ondje će ti biti i srce.",
+        "pisac": "Matej 6:21, Isus Krist"
+      },
+      {
+        "tekst": "Nemojte suditi, pa nećete biti suđeni. Ne osuđujte, pa nećete biti osuđeni. Opraštajte, pa će vam se oprostiti.",
+        "pisac": "Luka 6:37, Isus Krist"
+      },
+      {
+        "tekst": "Tko ide za mnom, neće hodati u tami, nego će imati svjetlost života.",
+        "pisac": "Ivan 8:12, Isus Krist"
+      },
+      {
+        "tekst": "Ako tko želi doći za mnom, neka se odrekne samoga sebe, neka uzme svoj križ i neka ide za mnom.",
+        "pisac": "Matej 16:24, Isus Krist"
+      },
+      {
+        "tekst": "Ja sam uskrsnuće i život: tko u mene vjeruje, ako i umre, živjet će.",
+        "pisac": "Ivan 11:25, Isus Krist"
+      }
 
 
   ]

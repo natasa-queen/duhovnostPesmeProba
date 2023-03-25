@@ -34,8 +34,8 @@ nav {
 
             a {
                 text-decoration: none;
-                color: var(--boja2);
-
+                color: var(--bela4);
+                padding-left: 2rem;
                 &:hover {
                     color: #eeeeee;
                 }
@@ -55,7 +55,7 @@ nav {
             flex-direction: column;
             width: 85vw;
             height: 100vh;
-            background-color: var(--boja1);
+            background-color: var(--teget3);
             transition: all 0.6s ease;
             padding-top: 6rem;
             

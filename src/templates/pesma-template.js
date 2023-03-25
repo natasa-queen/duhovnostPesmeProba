@@ -13,10 +13,12 @@ export default function PesmaTemplate({ data }) {
     return (
         <Layout>
             <div className='telo-pesme'>
-                <h2 className='naslov-pesme'>{title}</h2>
-                <h3 className='datum-pesme'>{datum}</h3>
+                <div className='naslov-datum'>
+                    <h2 className='naslov-pesme'>{title}</h2>
+                    <p className='datum-pesme'>{datum}</p>
+                </div>
 
-                <div dangerouslySetInnerHTML={{__html: html }} />
+                <div dangerouslySetInnerHTML={{__html: html }} className="sadrzaj" />
                 
             </div>
         </Layout>

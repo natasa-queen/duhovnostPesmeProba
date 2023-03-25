@@ -1,14 +1,32 @@
 
 .telo-pesme {
     max-width: 400px;
+    min-height: 100vh;
     text-align: center;
-    margin: 2rem auto;
-    background-color: var(--teget2);
+    margin: 0 auto;
+    background-color: var(--plava5);
+    padding: 4rem 0;
 
-    border: 1px solid red;
+    // border: 1px solid red;
 
-    .naslov-pesme {
-        color: var(--plava2);
-        font-family: var(--font1);
+    
+    .naslov-datum {
+        margin-bottom: 1rem;
+
+        .naslov-pesme {
+            color: var(--teget3);
+            font-family: var(--font1);
+        }
+        .datum-pesme {
+            text-align: left;
+            color: var(--siva3);
+            font-style: italic;
+            padding-left: 2.5rem;
+        }
     }
+
+    .sadrzaj {
+        color: var(--bela3)
+    }
+
 }

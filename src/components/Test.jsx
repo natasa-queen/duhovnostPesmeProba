@@ -58,8 +58,8 @@ const MessageDisplay = () => {
 
   return (
     <div className="poruka">
-      <p>{currentMessage.tekst}</p>
-      <p>- {currentMessage.pisac}</p>
+      <p className="tekst">{currentMessage.tekst}</p>
+      <p className="pisac">- {currentMessage.pisac}</p>
     </div>
   );
 };
