@@ -5,7 +5,7 @@ author: "Natasa"
 slug: "ropstvo-grijeha-i-sloboda"
 ---
 
-
+<p style="color:#9F9F9EFF;font-size:0.65rem;">(*objavljeno u "Katoličkom tjedniku"(br. 12/23))</p>
 <p>Pognuli smo glave, gledamo u pod</p>
 <p>nemamo snage za nastaviti dalje,</p>
 <p>a ne osjetimo silnu ljubav</p>
