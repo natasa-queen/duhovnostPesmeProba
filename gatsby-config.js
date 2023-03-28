@@ -5,13 +5,18 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+
 
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+
+
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
+
+
 
 module.exports = {
 
@@ -64,7 +69,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `cyps0qor801e`,
-        // Learn about environment variables: https://gatsby.dev/env-vars  process.env.CONTENTFUL_ACCESS_TOKEN
+        // Learn about environment variables: https://gatsby.dev/env-vars  
         accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
