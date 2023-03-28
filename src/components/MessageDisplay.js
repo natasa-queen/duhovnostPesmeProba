@@ -7,7 +7,6 @@ import '../assets/css/poruka.scss';
 import { useStaticQuery, graphql } from "gatsby";
 
 
-
 const MessageDisplay = () => {
   const [currentMessage, setCurrentMessage] = useState({
     tekst: "",
