@@ -1,0 +1,22 @@
+.naslov {
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+    color: var(--teget3);
+    font-family: 'Parisienne', 'Open Sans', cursive;
+}
+
+.lista-pesama {
+    margin: 2rem 0;
+    padding-left: 0.8rem;
+
+    a {
+        text-decoration: none;
+        color: var(--bela3);
+        font-size: 0.7rem;
+        
+        h1 {
+            margin-bottom: 1rem;
+        }
+       
+    }
+}

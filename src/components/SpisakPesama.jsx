@@ -1,41 +1,48 @@
-// import React from "react"
-// import '../assets/css/spisak-pesama.scss'
-// import { graphql, Link } from 'gatsby'
+import React from "react"
+import '../assets/css/spisak-pesama.scss'
+import '../assets/css/pocetna.scss'
+import '../assets/css/lista-pesama.scss'
+
+import { graphql, useStaticQuery, Link } from 'gatsby'
+import slugify from "slugify"
 
 
+const query = graphql`
+query {
+    allContentfulPesma(sort: {datum: ASC}) {
+        nodes {
+            title
+            datum(locale: "sr")
+            id
+        }
+    }
+}
+`
 
-// export default function SpisakPesama({ data }) {
 
-//     const projects = data.allMarkdownRemark.nodes
-    
+ const SpisakPesama = () => {
+
+    const data = useStaticQuery(query)
+
+    const pesme = data.allContentfulPesma.nodes
+
   
-//     return (
+    return (
+        <>
        
-//         <div>
-//           {projects.map(project => (
-//             <Link to={"/pesme/" + project.frontmatter.slug} key={project.id}>
-//               <h1>{ project.frontmatter.title }</h1>
-//             </Link>
-//           ))}
+        <div className="lista-pesama">
+          {pesme.map(pesma => (
+
+            <Link to={`${slugify(pesma.title,{lower:true})}`} key={pesma.id}>
+              <h1>{ pesma.title }</h1>
+            </Link>
+          ))}
   
-//         </div>
-      
-//     )
-//   }
-  
-//   export const query = graphql`
-//   query  {
-//     allMarkdownRemark(sort: {frontmatter: {datum: DESC}}) {
-//       nodes {
-//         frontmatter {
-//           author
-//           datum
-//           slug
-//           title
-//         }
-//         id
-//         excerpt
-//       }
-//     }
-//   }
-//   `
+        </div> 
+        </>
+    )
+  }
+
+  export default SpisakPesama
+
+

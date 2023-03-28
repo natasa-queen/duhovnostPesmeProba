@@ -23,6 +23,7 @@
     "gatsby-plugin-sharp": "^5.8.0",
     "gatsby-plugin-typography": "^5.8.0",
     "gatsby-plugin-webfonts": "^2.3.2",
+    "gatsby-source-contentful": "^8.8.0",
     "gatsby-source-filesystem": "^5.8.0",
     "gatsby-transformer-json": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
@@ -32,6 +33,7 @@
     "react-firebase-hooks": "^5.1.1",
     "react-typography": "^0.16.23",
     "sass": "^1.59.3",
+    "slugify": "^1.6.6",
     "typography": "^0.16.21"
   },
   "repository": {

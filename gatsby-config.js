@@ -9,7 +9,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
-
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
 
@@ -55,6 +57,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-mdx`,
+
+
+
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `cyps0qor801e`,
+        // Learn about environment variables: https://gatsby.dev/env-vars  process.env.CONTENTFUL_ACCESS_TOKEN
+        accessToken: process.env.CONTENTFUL_API_KEY,
+      },
+    },
 
 
 
