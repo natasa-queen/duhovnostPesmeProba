@@ -51,4 +51,3 @@ const query = graphql`
 
   export default SpisakPesama
 
-
