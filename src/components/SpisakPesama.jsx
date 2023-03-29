@@ -7,7 +7,6 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import slugify from "slugify"
 
 
-
 const query = graphql`
   query {
     allContentfulPesme(sort: {datum: DESC}) {

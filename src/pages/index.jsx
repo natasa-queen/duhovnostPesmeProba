@@ -15,11 +15,8 @@ export default function Home() {
       <Header />
 
       <h1 className="naslov">Duhovnost u stihovima</h1>
-      
 
       <SpisakPesama />
-
-
 
     </Layout>
   )
