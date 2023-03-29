@@ -34,7 +34,6 @@ const PesmaTemplate = ({ data }) => {
     )
 }
 
-
 export const query = graphql`
   query ($naslov: String) {
     contentfulPesme(naslov: {eq: $naslov}) {
