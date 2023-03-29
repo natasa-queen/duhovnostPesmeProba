@@ -10,7 +10,7 @@ import '../assets/css/pesma-template.scss'
 
 const PesmaTemplate = ({ data }) => {
 
-    const { naslov, datum, pesma1, gdeJeObjavljena } = data.contentfulPesme
+    const { naslov, datum, pesma1, gdeJeObjavljeno } = data.contentfulPesme
 
     return (
         <Layout>
@@ -19,7 +19,7 @@ const PesmaTemplate = ({ data }) => {
             <div className='naslov-datum'>
                 <h2 className='naslov-pesme'>{naslov}</h2>
                 <p className='datum-pesme'>{datum}</p>
-                <p className='objavljeno'>{gdeJeObjavljena}</p>
+                <p className='objavljeno'>{gdeJeObjavljeno}</p>
             </div>
             
 
