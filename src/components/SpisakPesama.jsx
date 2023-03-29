@@ -7,18 +7,6 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import slugify from "slugify"
 
 
-// const query = graphql`
-// query {
-//     allContentfulPesma(sort: {datum: ASC}) {
-//         nodes {
-//             title
-//             datum(locale: "sr")
-//             id
-//         }
-//     }
-// }
-// `
-
 
 const query = graphql`
   query {
@@ -38,10 +26,6 @@ const query = graphql`
 
  const SpisakPesama = () => {
 
-    // const data = useStaticQuery(query)
-
-    // const pesme = data.allContentfulPesma.nodes
-
     const data = useStaticQuery(query)
 
     const pesme = data.allContentfulPesme.nodes
@@ -50,16 +34,6 @@ const query = graphql`
     return (
         <>
        
-        {/* <div className="lista-pesama">
-          {pesme.map(pesma => (
-
-            <Link to={`${slugify(pesma.naslov,{lower:true})}`} key={pesma.id}>
-              <h1>{ pesma.title }</h1>
-            </Link>
-          ))}
-  
-        </div>  */}
-
           <div className="lista-pesama">
 
             {pesme.map(pesma => {
