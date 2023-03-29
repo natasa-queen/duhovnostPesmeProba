@@ -8,7 +8,6 @@ import '../assets/css/lista-pesama.scss'
 
 
 export default function Home() {
-  
 
   return (
     <Layout>
