@@ -23,7 +23,6 @@ const query = graphql`
   }
 `
 
-
  const SpisakPesama = () => {
 
     const data = useStaticQuery(query)
