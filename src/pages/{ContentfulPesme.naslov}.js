@@ -39,7 +39,7 @@ export const query = graphql`
     contentfulPesme(naslov: {eq: $naslov}) {
       naslov
       datum(formatString: "D.M.YYYY.")
-      gdeJeObjavljena
+      gdeJeObjavljeno
       pesma1 {
         childMarkdownRemark {
           html
