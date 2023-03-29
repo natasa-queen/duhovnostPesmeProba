@@ -96,6 +96,7 @@ module.exports = {
     },
 
 
+
     `gatsby-transformer-json`,
     // {
     //   resolve: `gatsby-source-filesystem`,
