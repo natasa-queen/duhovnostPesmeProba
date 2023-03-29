@@ -10,7 +10,7 @@ import slugify from "slugify"
 
 const query = graphql`
   query {
-    allContentfulPesme(sort: {datum: ASC}) {
+    allContentfulPesme(sort: {datum: DESC}) {
       nodes {
         naslov
         datum(formatString: "D.M.YYYY.")
