@@ -66,7 +66,6 @@ module.exports = {
     `gatsby-plugin-mdx`,
 
 
-
     {
       resolve: `gatsby-source-contentful`,
       options: {
