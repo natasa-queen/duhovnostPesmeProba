@@ -24,7 +24,7 @@ module.exports = {
 
   siteMetadata:{
     title: "Nataša",
-    description: "Moja sajt za poeziju",
+    description: "Moj sajt za poeziju",
     author: "@natasa"
   },
 
