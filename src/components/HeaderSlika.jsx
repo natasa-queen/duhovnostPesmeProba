@@ -6,8 +6,6 @@ function HeaderSlika() {
 
     return (
       <div>
-        
-        {/* <div className='pokrivac'></div> */}
 
         <StaticImage
             src="../assets/images/nati2.jpg"
