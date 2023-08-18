@@ -34,6 +34,7 @@ module.exports = {
     `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`,
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -51,6 +52,15 @@ module.exports = {
         name: `images`,
         // Path to the directory
         path: `${__dirname}/src/assets/images`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `md`,
+        // Path to the directory
+        path: `${__dirname}/content`
       },
     },
     
