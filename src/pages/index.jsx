@@ -19,10 +19,6 @@ export default function Home() {
 
       <SpisakPesama />
 
-
-
-
-
     </Layout>
   )
 }
