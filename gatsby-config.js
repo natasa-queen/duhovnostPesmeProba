@@ -15,9 +15,9 @@
  */
 
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+// require("dotenv").config({
+//   path: `.env.${process.env.NODE_ENV}`,
+// })
 
 
 module.exports = {
@@ -76,16 +76,6 @@ module.exports = {
     `gatsby-plugin-mdx`,
 
 
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `v10e95dmydfy`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_API_KEY,
-      },
-    },
-
-    
     // {
     //   resolve: `gatsby-source-contentful`,
     //   options: {
