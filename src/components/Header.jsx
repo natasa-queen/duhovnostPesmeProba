@@ -2,8 +2,8 @@ import React from 'react';
 
 import HeaderSlika from '../components/HeaderSlika'
 
-// import MessageDisplay from '../components/Test'
-import MessageDisplay from '../components/MessageDisplay'
+import Poruke from '../components/Poruke'
+
 import '../assets/css/header.scss'
 
 
@@ -17,9 +17,7 @@ export default function Header() {
             <HeaderSlika />
 
             <div>
-
-                <MessageDisplay />
-
+                <Poruke />
             </div>
 
             

@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from '../components/Layout'
 import Header from '../components/Header'
-import SpisakPesama from '../components/SpisakPesama'
+import ListaPesama from '../components/ListaPesama'
+
+import {Seo} from '../components/Seo'
 
 import '../assets/css/pocetna.scss'
 import '../assets/css/lista-pesama.scss'
-
+import '../assets/css/pocetnaListaPesama.scss'
 
 
 export default function Home() {
@@ -17,9 +19,19 @@ export default function Home() {
 
       <h1 className="naslov">Duhovnost u stihovima</h1>
 
-      <SpisakPesama />
+      <ListaPesama />
 
     </Layout>
   )
+}
+
+
+export function Head() {
+    return (
+        <>
+            <Seo title="Pocetna strana" />
+
+        </>
+    )
 }
 

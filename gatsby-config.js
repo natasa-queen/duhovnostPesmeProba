@@ -92,7 +92,7 @@ module.exports = {
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
-    //     path: `/src/assets/poruke`,
+    //     path: `/src/assets/nesto-pametno`,
     //   },
     // },
 

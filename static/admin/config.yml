@@ -21,7 +21,7 @@ collections:
 
   - name: 'poruke'
     preview: false
-    label: 'Mudre poruke'
+    label: 'Poruke'
     folder: 'content/poruke'
     create: true
     slug: '{{slug}}'

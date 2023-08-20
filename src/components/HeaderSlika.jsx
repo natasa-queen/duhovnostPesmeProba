@@ -1,8 +1,12 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 
+import '../assets/css/header.scss'
+
+
 
 function HeaderSlika() {
+
 
     return (
       <div>
