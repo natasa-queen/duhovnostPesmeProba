@@ -1,6 +1,6 @@
 ---
 title: Euharistija
-datum: 18. 5. 2023.
+date: 18. 5. 2023.
 ---
 Sveta euharistija
 na koju smo pozvani i ti i ja

@@ -11,7 +11,7 @@ const Lista = () => {
         query {
           allFile(
             filter: {relativeDirectory: {eq: "pesme"}}
-            sort: {childMarkdownRemark: {frontmatter: {datum: DESC}}}
+            sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}
           ) {
             totalCount
             edges {
@@ -20,7 +20,7 @@ const Lista = () => {
                 childMarkdownRemark {
                   frontmatter {
                     title
-                    datum
+                    date
                   }
                   html
                   parent {
@@ -37,7 +37,7 @@ const Lista = () => {
   `)
 
 
-    const total = data.allFile.totalCount
+    // const total = data.allFile.totalCount
     const pesme = data.allFile.edges
 
     return(
@@ -81,5 +81,7 @@ const Lista = () => {
     )
 }
 export default Lista
+
+
 
 

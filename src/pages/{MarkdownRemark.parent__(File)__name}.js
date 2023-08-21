@@ -8,7 +8,7 @@ import '../assets/css/pesma-izgled.scss'
 export default function Pesma({ data }) {
 
     const title = data.markdownRemark.frontmatter.title
-    const datum = data.markdownRemark.frontmatter.datum
+    const datum = data.markdownRemark.frontmatter.date
     // const objavljeno = data.markdownRemark.frontmatter.objavljeno
     const html = data.markdownRemark.html
 
@@ -41,7 +41,7 @@ export const query = graphql`
       id
       html
       frontmatter {
-        datum
+        date
         title
        
       }

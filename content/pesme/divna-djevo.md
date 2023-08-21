@@ -1,6 +1,6 @@
 ---
 title: Divna Djevo
-datum: 25. 7. 2023.
+date: 25. 7. 2023.
 ---
 O, Marijo Djevice,
 uznesisena ti si,

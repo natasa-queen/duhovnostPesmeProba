@@ -1,6 +1,6 @@
 ---
 title: Test
-datum: 21. 8. 2023.
+date: 21. 8. 2023.
 ---
 Ja se zovem
 Andrej
