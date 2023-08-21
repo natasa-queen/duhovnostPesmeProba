@@ -20,6 +20,7 @@ const Lista = () => {
                 childMarkdownRemark {
                   frontmatter {
                     title
+                    datum
                   }
                   html
                   parent {
@@ -65,7 +66,7 @@ const Lista = () => {
                                         <p className="fw-bold mb-1 naslov-pesme">
                                             {node.childMarkdownRemark.frontmatter.title}
                                         </p>
-                                        {/*<p className="text-muted mb-0">john.doe@gmail.com</p>*/}
+                                        <p className="text-muted mb-0">{node.childMarkdownRemark.frontmatter.datum}</p>
                                     </div>
                                 </div>
                         </li>
