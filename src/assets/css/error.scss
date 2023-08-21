@@ -1,0 +1,27 @@
+
+.error-page {
+  text-align: center;
+  height: 100vh;
+  padding-top: 10%;
+
+  h1 {
+    font-size: 8rem;
+  }
+  p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 540px) {
+    padding-top: 5rem;
+
+    h1 {
+    font-size: 4rem;
+  }
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+}
