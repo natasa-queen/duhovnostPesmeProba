@@ -34,15 +34,15 @@ module.exports = {
     `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
-    // `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify-cms`,
 
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        // ostali parametri
-        date_format: `DD.MM.YYYY.`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //     // ostali parametri
+    //     // date_format: `DD.MM.YYYY.`,
+    //   },
+    // },
 
     {
       resolve: `gatsby-source-filesystem`,
