@@ -1,7 +1,7 @@
 ---
 title: Muka
-datum: 22.3.2023.
-objavljeno: Nigde
+objavljeno: (*objavljeno u "Katoličkom tjedniku" (br. 13/23))
+datum: 16. 3. 2023.
 ---
 Spasitelju Kriste,
 ulaskom u Jeruzalem dočekan si kao pravi kralj Izraelski,
