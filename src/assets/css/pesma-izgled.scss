@@ -12,23 +12,30 @@
         margin-bottom: 1rem;
 
         .naslov {
-
+            color: var(--teget3);
+            font-family: var(--font1);
         }
 
         .datum {
             text-align: left;
+            padding-left: 2.5rem;
+            color: var(--siva3);
         }
         .objavljeno {
             text-align: left;
+            color: var(--siva3);
+            font-size: 0.8rem;
         }
     }
 
 
     .tekst-pesme {
         white-space: pre-wrap;
+        color: var(--bela3);
+        font-family: Calibri, serif;
     }
 
-    .btn {
+    button {
         margin-top: 2rem;
         width: 50%;
         padding: 0.5rem;
@@ -37,12 +44,12 @@
         background-color: var(--siva3);
 
         a {
-            margin-top: 2rem;
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: bold;
             color: var(--braon2);
+
         }
     }
 

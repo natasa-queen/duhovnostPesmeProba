@@ -25,7 +25,7 @@ export default function Pesma({ data }) {
 
                 <div dangerouslySetInnerHTML={{__html: html}} className='tekst-pesme' />
 
-                <button className="btn">
+                <button>
                     <Link to="/" >Nazad</Link>
                 </button>
 
