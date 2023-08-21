@@ -1,13 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
-.temp-naslov {
-    color: red;
-}
 
-.sadrzaj {
-    font-size: 1rem;
-    text-align: center;
+.pesma-kontejner {
     max-width: 400px;
+    min-height: 100vh;
+    text-align: center;
     margin: 0 auto;
+    padding: 5rem 0;
+
+    .naslov-datum {
+        margin-bottom: 1rem;
+
+        .naslov {
+
+        }
+
+        .datum {
+            text-align: left;
+        }
+        .objavljeno {
+            text-align: left;
+        }
+    }
+
+
+    .tekst-pesme {
+        white-space: pre-wrap;
+    }
+
+    .btn {
+        margin-top: 2rem;
+        width: 50%;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--siva3);
+
+        a {
+            margin-top: 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: var(--braon2);
+        }
+    }
 
 
 }

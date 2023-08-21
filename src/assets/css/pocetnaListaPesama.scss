@@ -1,19 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 
 
-.lista {
-  max-width: 540px;
-  margin: 0 auto;
+.kontejnerListe {
+  width: 100%;
+  background-color: var(--plava5);
 
-  border: 1px solid red;
+  .lista {
+    max-width: 540px;
+    margin: 0 auto;
 
-  .ruke {
-    font-size: 2rem;
+
+    //border: 1px solid red;
+
+    .naslov {
+      color: var(--teget3);
+      font-family: 'Parisienne', 'Open Sans', cursive;
+      padding: 2rem;
+    }
+
+    ul {
+      width: 100%;
+      padding-bottom: 4rem;
+
+      a {
+        border-bottom: 1px solid var(--plava5);
+
+        li {
+          padding: 1rem 3rem;
+          background-color: var(--teget3);
+          border: none;
+          border-radius: 5px;
+
+          div.lista-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+          }
+
+          .ruke {
+            font-size: 2rem;
+            color: #FF9100;
+          }
+
+          .naslov-pesme {
+            color: #52BCFD;
+          }
+        }
+
+      }
+
   }
+}
+
+
 
 
 }
 
 h1{
   text-align: center;
+  margin: 0;
 }

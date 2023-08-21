@@ -1,9 +1,8 @@
 import React from 'react'
-import { graphql, useStaticQuery, Script } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 
 import '../assets/css/poruka.scss'
-
 
 const Poruke = () => {
 
@@ -30,7 +29,6 @@ const Poruke = () => {
 
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const randomQuote = quotes[randomIndex].node;
-
 
 
     return(
@@ -60,25 +58,3 @@ const Poruke = () => {
     )
 }
 export default Poruke
-
-
-
-
-// export const query = graphql`
-//   query {
-//     nesto-pametno: allFile(filter: {relativeDirectory: {eq: "nesto-pametno"}}) {
-//       totalCount
-//       edges {
-//         node {
-//           childMarkdownRemark {
-//             frontmatter {
-//               title
-//             }
-//             html
-//           }
-//           id
-//         }
-//       }
-//     }
-//   }
-// `

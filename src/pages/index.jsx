@@ -5,8 +5,8 @@ import ListaPesama from '../components/ListaPesama'
 
 import {Seo} from '../components/Seo'
 
-import '../assets/css/pocetna.scss'
-import '../assets/css/lista-pesama.scss'
+// import '../assets/css/pocetna.scss'
+// import '../assets/css/lista-pesama.scss'
 import '../assets/css/pocetnaListaPesama.scss'
 
 
@@ -17,7 +17,7 @@ export default function Home() {
 
       <Header />
 
-      <h1 className="naslov">Duhovnost u stihovima</h1>
+      {/*<h1 className="naslov">Duhovnost u stihovima</h1>*/}
 
       <ListaPesama />
 

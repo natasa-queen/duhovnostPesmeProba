@@ -1,33 +1,32 @@
 
-.poruka {
-    // z-index: 99999;
-    color: var(--braon);
-    background-color: rgb(47, 46, 46, 0.5);
-    padding: 1rem 1.5rem;
-    
-    position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
 
-    bottom: 2rem;
-    right: 0;
-    // text-align: right;
+header {
 
 
-    h1 {
-        color: white;
+    .poruka {
+        color: var(--braon);
+        background-color: rgb(47, 46, 46, 0.5);
+        padding: 1rem 2.5rem;
+
+        position: absolute;
+
+        bottom: 3rem;
+        right: 50px;
+        width: 70%;
+
+        h1 {
+            color: white;
+        }
+        p {
+            color: var(--bela);
+        }
     }
-    p {
-        color: var(--bela);
-        font-size: 1.3rem;
-    }
-    .tekst {
-        color: var(--bela3)
-    }
-    .pisac {
-        text-align: right;
-        font-size: 1rem;
-        color: var(--siva3)
+
+
+    @media screen and (max-width: 540px) {
+        .poruka {
+            right: 0;
+            width: 100%;
+        }
     }
 }
